@@ -20,6 +20,11 @@
     <version>1.2.0</version>
 </dependency>
 
+             <dependency>
+					<groupId>org.glassfish.deployment</groupId>
+					<artifactId>deployment-client</artifactId>
+					<version>3.2-b06</version>
+				</dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
