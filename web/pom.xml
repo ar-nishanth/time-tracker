@@ -18,5 +18,13 @@
             <artifactId>time-tracker-core</artifactId>
             <version>${project.version}</version>
         </dependency>
+             
+        <!-- https://mvnrepository.com/artifact/org.codehaus.cargo/cargo-core-container-glassfish -->
+<dependency>
+    <groupId>org.codehaus.cargo</groupId>
+    <artifactId>cargo-core-container-glassfish</artifactId>
+    <version>1.2.0</version>
+</dependency>
+
     </dependencies>
 </project>
