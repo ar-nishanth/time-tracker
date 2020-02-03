@@ -21,6 +21,12 @@
         <checkstyle.version>2.17</checkstyle.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+<!-- https://mvnrepository.com/artifact/org.codehaus.cargo/cargo-core-container-glassfish -->
+<dependency>
+    <groupId>org.codehaus.cargo</groupId>
+    <artifactId>cargo-core-container-glassfish</artifactId>
+    <version>1.2.0</version>
+</dependency>
 
     <modules>
         <module>core</module>
