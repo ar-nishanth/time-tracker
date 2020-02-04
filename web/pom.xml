@@ -7,48 +7,7 @@
         <artifactId>time-tracker-parent</artifactId>
         <version>0.5.0-SNAPSHOT</version>
     </parent>
-	<build>
-	<plugins>
-<plugin>
-			<groupId>org.codehaus.cargo</groupId>
-			<artifactId>cargo-maven2-plugin</artifactId>
-			<version>1.6.0</version>
-			<configuration>
-				<container>
-					<containerId>glassfish4x</containerId>
-					<type>remote</type>
-				</container>
-				<configuration>
-					<type>runtime</type>
-					<properties>
-						<cargo.hostname>localhost</cargo.hostname>
-						<cargo.remote.username>admin</cargo.remote.username>
-						<cargo.remote.password>password</cargo.remote.password>
-						<cargo.remote.port>50447</cargo.remote.port>
-						<cargo.glassfish.domain.name>/myapp</cargo.glassfish.domain.name>
-					</properties>
-				</configuration>
-				<deployables>
-					<deployable>
-						<groupId>${project.groupId}</groupId>
-						<artifactId>${project.artifactId}</artifactId>
-						<type>war</type>
-						<properties>
-							<context>/myapp</context>
-						</properties>
-					</deployable>
-				</deployables>
-			</configuration>
-			<dependencies>
-				<dependency>
-					<groupId>org.glassfish.deployment</groupId>
-					<artifactId>deployment-client</artifactId>
-					<version>3.2-b06</version>
-				</dependency>
-			</dependencies>
-		</plugin>
-	</plugins>
-	</build>
+
     <artifactId>time-tracker-web</artifactId>
     <packaging>war</packaging>
     <name>Time Tracker (Web)</name>
