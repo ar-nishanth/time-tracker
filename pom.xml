@@ -57,6 +57,9 @@
 						<properties>
 							<context>/myapp</context>
 						</properties>
+						<deployer>
+							<type>war</type>
+						</deployer>
 					</deployable>
 				</deployables>
 			</configuration>
